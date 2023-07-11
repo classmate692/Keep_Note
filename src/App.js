@@ -1,22 +1,14 @@
 import "./App.css";
-import Header from "./components/Header";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Cart from "./components/Cart";
 import React from "react";
-import Add_card_hide from "./components/Add_card_hide";
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Main from "./compoments/Main";
 function App() {
   return (
     <>
       <div className="App">
-        <BrowserRouter>
-          <Routes>       
-            <Route  element={<Header />}>
-              <Route index element={<Home/>}/>
-              <Route path="cart" element={<Cart />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+      <Main/>
+     
       </div>
     </>
   );

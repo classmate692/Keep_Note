@@ -1,0 +1,25 @@
+.inputdiv{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.card{
+    background-color:#FFFF00;
+    width: 30%;
+    height: fit-content;
+    padding: 2%;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 150px;
+    border: 2px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition:  0.5s ease-in;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(8,8,8);
+}
+.deleteicon{
+    background-color: #FFFF00;
+    text-align: end ;
+}
